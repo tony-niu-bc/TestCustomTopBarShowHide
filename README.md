@@ -3,3 +3,4 @@
 
 ##Demo
 ![](https://github.com/wzhnsc/TestCustomTopBarShowHide/blob/master/gif/show.gif)
+![](https://github.com/wzhnsc/TestCustomTopBarShowHide/blob/master/gif/show2.gif)
