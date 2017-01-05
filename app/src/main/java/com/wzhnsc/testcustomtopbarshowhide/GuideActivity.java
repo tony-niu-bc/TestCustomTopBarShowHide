@@ -26,5 +26,12 @@ public class GuideActivity extends Activity {
                 startActivity(new Intent(GuideActivity.this, PullPushActivity.class));
             }
         });
+
+        findViewById(R.id.listview_topbar_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(GuideActivity.this, ListViewTopBarActivity.class));
+            }
+        });
     }
 }

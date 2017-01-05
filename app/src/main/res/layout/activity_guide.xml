@@ -20,7 +20,15 @@
         android:id="@+id/drop_in_viewgroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:text="DropInViewGroup"
+        />
+
+    <Button
+        android:id="@+id/listview_topbar_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DropInActivity"
         />
 
 </LinearLayout>
