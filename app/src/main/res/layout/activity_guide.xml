@@ -28,7 +28,15 @@
         android:id="@+id/listview_topbar_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DropInActivity"
+        android:text="DropInListView"
+        />
+
+    <Button
+        android:id="@+id/listview_headview_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="SimulateGoogle+"
         />
 
 </LinearLayout>

@@ -20,6 +20,9 @@
 用对象动画来实现标题栏的 Y 轴上的缩放，在动画结束时根据标题显隐来决定 listview 的 TopPadding 是为标题栏留出空间，
 不会出现闪的情况！
 
+** 采用 RelativeLayout(ListView + Toolbar) + ObjectAnimator 实现无闪效果 **
+
 ![](https://github.com/wzhnsc/TestCustomTopBarShowHide/blob/master/gif/show.gif)
 ![](https://github.com/wzhnsc/TestCustomTopBarShowHide/blob/master/gif/show2.gif)
 ![](https://github.com/wzhnsc/TestCustomTopBarShowHide/blob/master/gif/show3.gif)
+![](https://github.com/wzhnsc/TestCustomTopBarShowHide/blob/master/gif/show4.gif)

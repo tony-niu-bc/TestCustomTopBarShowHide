@@ -33,5 +33,12 @@ public class GuideActivity extends Activity {
                 startActivity(new Intent(GuideActivity.this, ListViewTopBarActivity.class));
             }
         });
+
+        findViewById(R.id.listview_headview_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(GuideActivity.this, ListviewByHeadviewActivity.class));
+            }
+        });
     }
 }
